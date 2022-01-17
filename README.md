@@ -1,2 +1,2 @@
-# BC21_KFC_LeVietToan
+# KFC Page
 Simple vanilla html+css web
