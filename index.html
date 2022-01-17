@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <img id="logo" src="./img/logo.png" alt="">
+        <h1 id="brand">KFC</h1>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu">
+        <a href="#content-1">Giới thiệu</a>
+        <a href="#content-2">Phát triển</a>
+        <a href="./news/news.html">Đi tới trang Tin tức</a>
+        <a href="https://kfcvietnam.com.vn/vi/khuyen-mai.html">Đi tới trang Khuyến mãi</a>
+    </div>
+
+    <!-- Content 1: Introduce -->
+    <div class="back-brown" id="content-1">
+        <h2>Giới thiệu KFC</h2>
+        <p>KFC là cụm từ viết tắt của Kentucky Fried Chicken - Gà Rán Kentucky, một trong các thương hiệu thuộc Tập đoàn Yum Brands Inc (Hoa Kỳ). KFC chuyên về các sản phẩm gà rán và nướng, với các món ăn kèm theo và các loại sandwiches chế biến từ thịt gà tươi. Hiện nay đang có hơn 20.000 nhà hàng KFC tại 109 quốc gia và vùng lãnh thổ trên toàn thế giới.
+        <br />
+        <i id="text-black">KFC nổi tiếng thế giới với công thức chế biến gà rán truyền thống Original Recipe, được tạo bởi cùng một công thức pha trộn bí mật 11 loại thảo mộc và gia vị khác nhau do Đại tá Harland Sanders hoàn thiện hơn nửa thế kỷ trước.</i>
+        Ngoài thực đơn gà rán, KFC còn đa dạng hóa sản phẩm tạo nên thực đơn vô cùng phong phú dành cho người tiêu dùng trên toàn thế giới có thể thưởng thức hơn 300 món ăn khác nhau từ món gà nướng tại thị trường Việt Nam cho tới sandwich cá hồi tại Nhật Bản. </p>
+        <img src="./img/about-pic-1.png" alt="">
+    </div>
+
+    <!-- Content 2: History of Development -->
+    <div class="back-brown" id="content-2">
+        <h2>CÁC CỘT MỐC PHÁT TRIỂN NHÀ HÀNG ĐẦU TIÊN TẠI CÁC TỈNH THÀNH</h2>
+        <ul>
+            <li>Tháng 12/1997 - TP.HCM</li>
+            <li>Tháng 06/2006 - Hà Nội</li>
+            <li>Tháng 08/2006 - Hải Phòng & Cần Thơ</li>
+            <li>Tháng 07/2007 - Đồng Nai – Biên Hòa</li>
+            <li>Tháng 01/2008 - Vũng Tàu</li>
+            <li>Tháng 05/2008 - Huế</li>
+            <li>Tháng 11/2009 - Đà Nẵng</li>
+        </ul>
+        <img src="./img/about-pic-3.png" alt="">
+    </div>
+
+    <!-- Content 3: Products and Prices -->
+    <div id="content-3">
+        <h1>Bảng Giá Nước đi kèm của KFC</h1>
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="2">Name</td>
+                    <td>Type</td>
+                    <td>Price</td>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Green Tea Options -->
+                <tr>
+                    <td rowspan="2" colspan="2" class="text-right" id="green-tea-image">Green Tea</td>
+                    <td class="text-left">Hot</td>
+                    <td rowspan="2">25.000vnd</td>
+                </tr>
+                <tr>
+                    <td class="text-right">Cold</td>
+                </tr>
+                
+                <!-- Black Tea Options -->
+                <tr>
+                    <td rowspan="2" colspan="2" id="black-tea-image">Black Tea</td>
+                    <td class="text-left">Hot</td>
+                    <td rowspan="2">28.000vnd</td>
+                </tr>
+                <tr>
+                    <td class="text-right">Cold</td>
+                </tr>
+
+                <!-- Olong Tea Options -->
+                <tr>
+                    <td rowspan="2" colspan="2" class="text-left" id="olong-tea-image">Olong Tea</td>
+                    <td class="text-left">Hot</td>
+                    <td rowspan="2">30.000vn</td>
+                </tr>
+                <tr>
+                    <td>Cold</td>
+                </tr>
+
+                <!-- Fruit Tea Options -->
+                <tr>
+                    <td rowspan="3" id="fruit-tea-image">Fruit Tea</td>
+                    <td class="text-left">Lemon Tea</td>
+                    <td rowspan="3">Cold (only)</td>
+                    <td>30.000vnd</td>
+                </tr>
+                <tr>
+                    <td class="text-left">Apple Tea</td>
+                    <td rowspan="2">35.000vnd</td>
+                </tr>
+                <tr>
+                    <td class="text-left">Peach Tea</td>
+                </tr>
+
+                <!-- Milk Tea Options -->
+                <tr>
+                    <td rowspan="3" id="milk-tea-image">Milk Tea</td>
+                    <td class="text-left">Green Milk Tea</td>
+                    <td rowspan="3" class="text-left">Hot</td>
+                    <td class="text-left">27.000vnd</td>
+                </tr>
+                <tr>
+                    <td class="text-left">Black Milk Tea</td>
+                    <td class="text-left">30.000vnd</td>
+                </tr>
+                <tr>
+                    <td class="text-left">Olong Milk Tea</td>
+                    <td class="text-left">32.000vnd</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

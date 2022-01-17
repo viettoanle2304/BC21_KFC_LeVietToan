@@ -1,0 +1,91 @@
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#brand {
+    background-color: red;
+    color: white;
+    text-align: left;
+}
+
+.menu a {
+    display: block;
+    font-size: 20px;
+}
+
+.back-brown {
+    background-color: brown;
+    color: white;
+}
+
+.back-brown h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.back-brown img {
+    width: 50%;
+}
+
+#content-1 p {
+    font-size: 30px;
+    text-align: justify;
+}
+
+#content-1 #text-black {
+    color: black;
+    font-weight: bold;
+}
+
+#content-2 li {
+    font-size: 25px;
+}
+
+#content-3 h1 {
+    text-align: center;
+}
+
+#content-3 table {
+    border: 1px solid #b2b2b2;
+    width: 900px;
+    height: 800px;
+    margin: auto;
+}
+
+#content-3 thead td {
+    font-weight: bold;
+}
+
+#content-3 table td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#content-3 table .text-left {
+    text-align: left;
+}
+
+.content-3 table .text-right {
+    text-align: right;
+}
+
+#green-tea-image {
+    background-image: url(./img/greentea.jpg);
+}
+
+#black-tea-image {
+    background-image: url(./img/blacktea.jpg);
+}
+
+#olong-tea-image {
+    background-image: url(./img/olongtea.jpg);
+}
+
+#fruit-tea-image {
+    background-image: url(./img/fruit.jpg);
+}
+
+#milk-tea-image {
+    background-image: url(./img/milktea.png);
+}
